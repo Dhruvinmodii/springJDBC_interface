@@ -1,12 +1,12 @@
-package com.mvcspring.core.interface_crud;
+package com.mvcspring.core.interface_crud.dao;
 
-public class student {
+public class student_copy {
 	private int id;
 	private String name;
-	public student() {
+	public student_copy() {
 		
 	}
-	public student(int id, String name) {
+	public student_copy(int id, String name) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -25,7 +25,8 @@ public class student {
 	}
 	@Override
 	public String toString() {
-		return "student [id=" + id + ", name=" + name + "]";
+		return "student_copy [id=" + id + ", name=" + name + "]";
 	}
+	
 	
 }
